@@ -1,0 +1,47 @@
+{
+    "name": "willhoffmann/anymarket-php",
+    "description": "PHP Library for hub AnyMarket",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["anymarket", "marketplace"],
+    "authors": [
+        {
+            "name": "William Hoffmann",
+            "email": "williamhoffmann@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/willhoffmann/anymarket-php/issues",
+        "source": "https://github.com/willhoffmann/anymarket-php"
+    },
+    "homepage": "http://developers.anymarket.com.br/",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0",
+        "guzzlehttp/guzzle": "^6.3@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "AnyMarket\\Sdk\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4": {
+            "AnyMarket\\SdkTest\\": "tests"
+        }
+    },
+    "scripts": {
+        "cs-check": "phpcs",
+        "cs-fix": "phpcbf",
+        "test": "phpunit"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.0@dev",
+        "phpunit/phpunit": "^7.3@dev",
+        "squizlabs/php_codesniffer": "^3.0@dev"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
