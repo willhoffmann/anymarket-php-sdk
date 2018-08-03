@@ -98,7 +98,7 @@ class AnyMarket
      */
     public function put($resource, $data = [])
     {
-        $exec =  $this->execute(Method::$HTTP_PUT, $resource, ['json' => $data]);
+        $exec = $this->execute(Method::$HTTP_PUT, $resource, ['json' => $data]);
 
         return $exec;
     }
@@ -113,7 +113,7 @@ class AnyMarket
      */
     public function delete($resource)
     {
-        $exec =  $this->execute(Method::$HTTP_DELETE, $resource);
+        $exec = $this->execute(Method::$HTTP_DELETE, $resource);
 
         return $exec;
     }
