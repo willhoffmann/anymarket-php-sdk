@@ -1,9 +1,9 @@
 {
     "name": "willhoffmann/anymarket-php",
-    "description": "PHP Library for hub AnyMarket",
+    "description": "PHP SDK for AnyMarket API",
     "type": "library",
     "license": "MIT",
-    "keywords": ["anymarket", "marketplace"],
+    "keywords": ["anymarket", "marketplace", "sdk anymarket", "sdk"],
     "authors": [
         {
             "name": "William Hoffmann",
